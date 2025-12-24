@@ -179,10 +179,8 @@ img {
 }
 
 /*===== HOME =====*/
-.home {
-  position: relative;
-  row-gap: 5rem;
-  padding: 4rem 0 5rem;
+.home{
+  overflow: hidden;
 }
 .home__data {
   align-self: center;
@@ -207,17 +205,18 @@ img {
 .home__social-icon:hover {
   color: var(--first-color);
 }
-.home__img {
-  position: absolute;
-  right: 0;
-  bottom: 0;
-  width: 260px;
+.home__img{
+  overflow: hidden;
+  max-width: 100%;
 }
-.home__blob {
-  fill: var(--first-color);
+.home__blob{
+  width: 100%;
+  height: auto;
+  display: block;
 }
-.home__blob-img {
-  width: 360px;
+.home__blob-img{
+  width: 100% !important; /* override template's 360px */
+  height: auto;
 }
 
 /*BUTTONS*/
