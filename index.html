@@ -65,7 +65,7 @@
           ></a>
         </div>
 
-        <div class="home__img">
+        <!-- <div class="home__img">
           <svg class="home__blob" viewBox="0 0 479 467" xmlns="http://www.w3.org/2000/svg">
             <mask id="mask0" mask-type="alpha">
               <path
@@ -76,12 +76,12 @@
               <path
                 d="M9.19024 145.964C34.0253 76.5814 114.865 54.7299 184.111 29.4823C245.804 6.98884 311.86 -14.9503 370.735 14.143C431.207 44.026 467.948 107.508 477.191 174.311C485.897 237.229 454.931 294.377 416.506 344.954C373.74 401.245 326.068 462.801 255.442 466.189C179.416 469.835 111.552 422.137 65.1576 361.805C17.4835 299.81 -17.1617 219.583 9.19024 145.964Z"
               />
-              <!-- Replace with your own photo -->
+              
               <image class="home__blob-img" x="50" y="60" href="assets/img/perfil.png" />
             </g>
           </svg>
         </div>
-      </section>
+      </section> -->
 
       <!--===== ABOUT =====-->
       <section class="about section" id="about">
@@ -174,50 +174,140 @@
       </section>
 
       <!--===== WORK / PROJECTS =====-->
-      <section class="work section" id="work">
-        <h2 class="section-title">Projects</h2>
+     <section class="work section" id="work">
+  <h2 class="section-title">Projects</h2>
 
-        <div class="work__container bd-grid">
-          <!-- Project 1 -->
-          <a href="#" class="work__img" title="Cheating Surveillance System">
-            <img src="assets/img/work1.jpg" alt="Cheating Surveillance System" />
-          </a>
+  <div class="projects__container bd-grid">
+    <!-- Project 1 -->
+    <article class="project__card">
+      <div class="project__header">
+        <h3 class="project__title">Cheating Surveillance System</h3>
+        <p class="project__period">Feb 2025 – Apr 2025</p>
+      </div>
 
-          <!-- Project 2 -->
-          <a href="#" class="work__img" title="Web Chat Application">
-            <img src="assets/img/work2.jpg" alt="Web Chat Application" />
-          </a>
+      <p class="project__desc">
+        Real-time computer vision system to detect eye/head movement and mobile phone usage during exams.
+      </p>
 
-          <!-- Project 3 -->
-          <a href="#" class="work__img" title="Rakshak (Waterborne Disease Alert System)">
-            <img src="assets/img/work3.jpg" alt="Rakshak" />
-          </a>
+      <ul class="project__tags">
+        <li>Python</li><li>OpenCV</li><li>dlib</li><li>YOLO</li><li>Roboflow</li>
+      </ul>
 
-          <!-- Project 4 -->
-          <a href="#" class="work__img" title="Weather App (Real-time API)">
-            <img src="assets/img/work4.jpg" alt="Weather App" />
-          </a>
+      <div class="project__actions">
+        <a class="project__btn" href="#" target="_blank">GitHub</a>
+        <a class="project__btn project__btn--primary" href="#" target="_blank">Live / Demo</a>
+      </div>
+    </article>
 
-          <!-- Project 5 -->
-          <a href="#" class="work__img" title="Sonar Prediction (ML)">
-            <img src="assets/img/work5.jpg" alt="Sonar Prediction" />
-          </a>
+    <!-- Project 2 -->
+    <article class="project__card">
+      <div class="project__header">
+        <h3 class="project__title">Web Chat Application</h3>
+        <p class="project__period">—</p>
+      </div>
 
-          <!-- Project 6 -->
-          <a href="#" class="work__img" title="Sledge Solution (E-Commerce)">
-            <img src="assets/img/work6.jpg" alt="Sledge Solution" />
-          </a>
-        </div>
+      <p class="project__desc">
+        Real-time chat app using WebSockets with persistent storage in MongoDB.
+      </p>
 
-        <!-- Optional: short project descriptions under the grid -->
-        <div class="bd-grid" style="margin-top: 1.5rem">
-          <p>
-            Selected projects include: Cheating Surveillance System (Python, OpenCV, dlib, YOLO),
-            Web Chat App (Socket.io, Node.js, MongoDB), Rakshak (AI-driven outbreak prediction + dashboard),
-            Weather App (API-based), Sonar Prediction (ML model in Jupyter), and Sledge Solution (e-commerce workflow).
-          </p>
-        </div>
-      </section>
+      <ul class="project__tags">
+        <li>Node.js</li><li>Socket.io</li><li>MongoDB</li><li>JS</li>
+      </ul>
+
+      <div class="project__actions">
+        <a class="project__btn" href="#" target="_blank">GitHub</a>
+        <a class="project__btn project__btn--primary" href="#" target="_blank">Live / Demo</a>
+      </div>
+    </article>
+
+    <!-- project 3 -->
+     <article class="project__card">
+      <div class="project__header">
+        <h3 class="project__title">Sonar Prediction</h3>
+        <p class="project__period">—</p>
+      </div>
+
+      <p class="project__desc">
+        Increasingly relies on Machine Learning,Logistic Regression,CNN to predict udner water obejcts .
+      </p>
+
+      <ul class="project__tags">
+        <li>Python</li><li>ML Models</li><li>Pandas</li><li>Numpy</li>
+      </ul>
+
+      <div class="project__actions">
+        <a class="project__btn" href="#" target="_blank">GitHub</a>
+        <a class="project__btn project__btn--primary" href="#" target="_blank">Live / Demo</a>
+      </div>
+    </article>
+     <!-- project 4 -->
+    <article class="project__card">
+      <div class="project__header">
+        <h3 class="project__title">Weather App</h3>
+        <p class="project__period">—</p>
+      </div>
+
+      <p class="project__desc">
+        Real-time weather Prediction application.
+      </p>
+
+      <ul class="project__tags">
+        <li>HTML/CSS</li><li>API-key</li><li>JS</li>
+      </ul>
+
+      <div class="project__actions">
+        <a class="project__btn" href="#" target="_blank">GitHub</a>
+        <a class="project__btn project__btn--primary" href="#" target="_blank">Live / Demo</a>
+      </div>
+    </article>
+
+    <!-- project 5 -->
+     <article class="project__card">
+      <div class="project__header">
+        <h3 class="project__title">Rakshak</h3>
+        <p class="project__period">—</p>
+      </div>
+
+      <p class="project__desc">
+        Detect waterborn diseases in rural areas with the help of IOT sesnors,Local Hospital Data,Social workers etc.
+      </p>
+
+      <ul class="project__tags">
+        <li>Base44 Ai</li><li>IOT Sensors</li><li>MongoDB</li><li>JS</li>
+      </ul>
+
+      <div class="project__actions">
+        <a class="project__btn" href="#" target="_blank">GitHub</a>
+        <a class="project__btn project__btn--primary" href="#" target="_blank">Live / Demo</a>
+      </div>
+    </article>
+
+    <!-- project 6 -->
+     <article class="project__card">
+      <div class="project__header">
+        <h3 class="project__title">Sledge Solution</h3>
+        <h4 class="project__title">Owner- Gunjan Sharma & Nishant Mishra</h4>
+        <p class="project__period">04/2025-Ongoing</p>
+      </div>
+
+      <p class="project__desc">
+        Froms a smooth,transparent connection between Retailer,Distributer and Delivery Parter.
+      </p>
+
+      <ul class="project__tags">
+        <li>Express js</li><li>React Js</li><li>Node js</li><li>MongoDB</li><li>JS</li>
+      </ul>
+
+      <div class="project__actions">
+        <a class="project__btn" href="#" target="_blank">GitHub</a>
+        <a class="project__btn project__btn--primary" href="#" target="_blank">Live / Demo</a>
+      </div>
+    </article>
+    <!-- add more project as needed  -->
+
+  </div>
+</section>
+
 
       <!--===== CONTACT =====-->
       <section class="contact section" id="contact">
